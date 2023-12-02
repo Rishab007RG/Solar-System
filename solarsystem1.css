@@ -1,0 +1,190 @@
+body{
+    border: 1px solid white;
+    background-color: black;
+    width: 1500px;height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapercave.com/wp/wp4865525.jpg");
+    background-size: cover;
+   
+}
+@keyframes solar {
+    100%{transform: rotate(360deg);}
+    
+}
+div{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.sun{
+    width: 100px;height: 100px;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.lNgpqGl16U0ft3rS8TdFcgEsEe&pid=Api&P=0&h=180");
+    background-size: cover;  
+     
+    }
+.mercury{
+    width: 160px;height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mer{
+    width: 20px;height: 20px;
+    position: absolute;
+    top: 26px;
+    left: 135px;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.mS6Ffk4ng4ntq1HnlWd9DQHaHa&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+.venus{
+    width: 220px;height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ven{
+    width: 25px;height: 25px;
+    position: absolute;
+    top: 206px;
+    left: 100px;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.DcLn9ex94CAq5UcB5UfFwQHaHa&pid=Api&P=0&h=180");
+    background-size: cover
+    ;
+}
+.earth{
+    width: 290px;height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.ear{
+    width: 30px;height:30px;
+    position: absolute;
+    top: -6px;
+    left: 89px;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.btqr55PYwoIM7CJuIdGzNgHaHa&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+.mars{
+    width: 360px;height:360px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+}
+.mar{
+    width: 25px;height:25px;
+    position: absolute;
+    top: 279px;
+    left: 309px;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.C-wlqwznUS-AUs5MKNgfHAHaHQ&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+.jupiter{
+    width: 450px;height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+}
+.jup{
+    width: 40px;height:40px;
+    position: absolute;
+    top: 388px;
+    left: 70px;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.DKDqn2CjvIctbXU-o5A9ZwHaHa&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+.saturn{
+    width: 540px;height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+}
+.sat{
+    width: 40px;height:40px;
+    position: absolute;
+    top: 208px;
+    left: 516px;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.8rmJnBWJxwcFqVQPPm463gHaFL&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+.uranus{
+    width: 600px;height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position: relative;
+}
+.ura{
+    width: 30px;height:30px;
+    position: absolute;
+    top: 566px;
+    left: 390px;
+    background-image: url("https://tse2.explicit.bing.net/th?id=OIP.NWtimZv75fxQ_Mttkx6I-QHaHZ&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+.neptune{
+    width: 700px;height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;  
+    animation-name: solar;
+    animation-duration: 15s;animation-iteration-count: infinite;
+}
+.nep{
+    width: 30px;height:30px;
+    position: absolute;
+    top: 18px;
+    left: 180px;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.PcY1Ap03dlxhH0vwMOzsGQHaHs&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+/*.......................hover.................*/
+
+/* :hover.mercury{
+    transition: 5s;
+    transform: rotate(360deg);
+} 
+:hover.venus{
+    transition: 5s;
+    transform: rotate(360deg);
+} 
+:hover.earth{
+    transition: 5s;
+    transform: rotate(360deg);
+}
+:hover.mars{
+    transition: 5s;
+    transform: rotate(360deg);
+}  
+:hover.jupiter{
+    transition: 5s;
+    transform: rotate(360deg);
+} 
+:hover.saturn{
+    transition: 5s;
+    transform: rotate(360deg);
+} 
+:hover.uranus{
+    transition: 5s;
+    transform: rotate(360deg);
+}  */
+/* :hover.neptune{
+    transition: 15s;
+    transform: rotate(360deg);
+}   */
+
+
+
+
